@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "palautetta",
+  "version": "${version}",
+  "name": "Palautetta",
+  "description": "",
+  "authors": [
+    "INeedAwesome"
+  ],
+  "contact": {
+    "website": "https://mattis.gr8.site"
+  },
+  "license": "MIT",
+  "icon": "assets/palautetta/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "site.gr8.mattis.palautetta.client.PalautettaClient"
+    ]
+  },
+  "mixins": [
+    "palautetta.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
